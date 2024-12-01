@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Cursos Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FELIZ ANIVERSÁRIO</h1>
+        <p>Escolha Um presente!</p>
+    </header>
+    <main>
+        <section class="cursos">
+            <div class="curso">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m2md2smunmj9ba.webp" alt="Curso 1">
+                <h2>Vestido Longo</h2>
+                <p>Com Bojo Liso Manga Bufante Verão 3RD SD1376.</p>
+                <button>Escolher</button>
+            </div>
+        
+            <div class="curso">
+                <img src="https://acdn.mitiendanube.com/stores/001/402/723/products/img_0329-e05283ca68b4b9711a17083573786070-1024-1024.jpeg" alt="Curso 3">
+                <h2>CAMISA FLAMENGO 2024 FEMININA</h2>
+                <p>As camisetas do Flamengo foram desenvolvidas com as últimas tendências da tecnologia esportiva em mente.</p>
+                <button>Escolher</button>
+            </div>
+            <div class="curso">
+                <img src="https://img.freepik.com/psd-premium/show-de-selo-3d-de-premios-para-supermercado-e-ofertas-no-valor-de-10-mil-reais_314999-2374.jpg" alt="Curso 4">
+                <h2>Pix de 10.000$</h2>
+                <p>Podendo receber um Pix ou cédulas no valor de 10.000$.</p>
+
+                <button>Impossível de Escolher</button>
+            </div>
+            <div class="curso">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk12fgw5nbxicc.webp" alt="Curso 4">
+                <h2>Scarpin Mule</h2>
+                <p>Feminino Moda Modesta com Cinto de Fivela Salto Médio Elegante Sofisticado Sola Vermelha Griffe.</p>
+            
+                <button>Escolher</button>
+            </div>
+            <div class="curso">
+                <img src="https://cdn.familiasublimaticaclub.com.br/wp-content/uploads/2023/12/Caneca-10.jpg" alt="Curso 4">
+                <h2>Caneca Melhores amigos</h2>
+                <p>Caneca podendo personalizada com nossa caricatura.</p>
+                <p>Escolhe esse por favor é o mais barato!.</p>
+                <button>Escolher</button>
+            </div>
+            <div class="curso">
+                <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk2lebytt7om55.webp" alt="Curso 2">
+                <h2>Vestido Feminino Preto</h2>
+                <p>Vestido em MALHA CREPE
+                    A malha crepe é um tecido encorpado (pesado)
+                    Tem relevo.</p>
+                <button>Escolher</button>
+            </div>
+        </section>
+    </main>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("https://i.gifer.com/76YS.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    background-image: url("https://i.gifer.com/76YS.gif");
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.curso {
+    background: transparent; /* Deixe o fundo transparente */
+    border-radius: 8px;
+    
+ 
+box-shadow: 0 2px 5px rgb(243, 241, 241);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    
+   
+text-align: center;
+    transition: transform 0.3s;
+}
+
+.curso img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border-radius: 100px;
+}
+.curso:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.curso h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #a30000;
+}
+
+.curso p {
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+.curso span {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #d30707;
+}
+
+button {
+    background-color: #df0808;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e20404;
+}
+
+@media (max-width: 600px) {
+    .cursos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .curso {
+        width: 90%;
+    }
+    button:hover {
+        background-color: #0056b3; 
+    }
+}
+   
+    
+
+    </style>
+
+</body>
+</html>
